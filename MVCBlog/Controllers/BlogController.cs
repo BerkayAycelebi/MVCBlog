@@ -13,5 +13,11 @@ namespace MVCBlog.Controllers
         {
             return View();
         }
+
+        public PartialViewResult BlogList() { 
+        
+        
+        return PartialView();
+        }
     }
 }
