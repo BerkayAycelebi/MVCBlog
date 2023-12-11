@@ -3,5 +3,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Layout.cshtml";
 }
-
-@Html.Action("Bloglist","Blog")
+@Html.Action("FeaturedPosts", "Blog")
+@Html.Action("Bloglist", "Blog")
+@Html.Action("OtherFeaturedPosts", "Blog")
+@Html.Action("MailSubscribe", "Blog")

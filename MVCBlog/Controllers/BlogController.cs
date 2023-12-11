@@ -14,10 +14,31 @@ namespace MVCBlog.Controllers
             return View();
         }
 
-        public PartialViewResult BlogList() { 
-        
-        
-        return PartialView();
+        public PartialViewResult BlogList()
+        {
+
+
+            return PartialView();
+        }
+
+        public PartialViewResult FeaturedPosts()
+        {
+
+
+            return PartialView();
+        }
+
+        public PartialViewResult OtherFeaturedPosts()
+        {
+
+
+            return PartialView();
+        }
+        public PartialViewResult MailSubscribe()
+        {
+
+
+            return PartialView();
         }
     }
 }
